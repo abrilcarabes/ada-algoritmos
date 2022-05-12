@@ -13,7 +13,20 @@ public class Calculador {
         System.out.println("el resultado de la suma " + suma );
 
     }
-    public void calcularPromedio(){
+
+
+    public void multiplicarNumeros () {
+            Scanner lectorDatos = new Scanner(System.in);
+            System.out.println("Ingrese numero A");
+            int numeroA = lectorDatos.nextInt();
+            System.out.println("ingrese numero B");
+            int numeroB = lectorDatos.nextInt();
+            int multiplicacion = numeroA * numeroB;
+            System.out.println("el resultado de la multiplicacion " + multiplicacion );
+
+        }
+
+        public void calcularPromedio(){
         final byte CANT_NOTAS = 4;
         Scanner lectorDatos = new Scanner(System.in);
         System.out.println("ingrese calificacion 1");
